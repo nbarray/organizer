@@ -1,0 +1,14 @@
+.TaskList
+{
+  background: rgb(40, 150, 80);
+}
+
+.TaskListHeader
+{
+  background: rgb(60, 170, 100);
+  height: 75px;
+
+  /* Text related */
+  padding: 25px;
+  text-align: center;
+}
