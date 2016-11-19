@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './TaskList.css';
+import TaskInput from './TaskInput';
 
 class TaskList extends Component {
   render() {
@@ -8,6 +9,7 @@ class TaskList extends Component {
         <div className="TaskListHeader">
           TASKS
         </div>
+        <TaskInput />
         <ul className="w3-ul w3-card-4 w3-hoverable">
           <li>Test</li>
           <li>Test1</li>
